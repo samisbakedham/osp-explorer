@@ -45,7 +45,7 @@ export default class NodeDetail extends Component {
     return (
       <>
         <Descriptions layout="vertical" column={1} bordered={true} size="small">
-          <Descriptions.Item label="ETH Address">{id}</Descriptions.Item>
+          <Descriptions.Item label="CNDL Address">{id}</Descriptions.Item>
           <Descriptions.Item label="Host">
             <b>Domain:</b> {rpcHost}
             <br />

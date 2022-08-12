@@ -3,7 +3,7 @@ module.exports = {
   database: './db.json',
   ethInstance:
     process.env.ETH_INSTANCE ||
-    'wss://mainnet.infura.io/ws/v3/ce581be62b43483b8627f4f9f2ad40d6',
+    'wss://candleexplorer.com/socket',
   ledgerContract: '0x4f7f56d57607e346ff8719c9f34cba3bbccae71f',
   routerRegistryContract: '0x2f11656af5d1e9be634a8d00417cc05ebb43fc08',
   backup: process.env.BACKUP,
@@ -12,12 +12,12 @@ module.exports = {
   ospReportTimeout: 120, // 120 minutes
   tokens: [
     {
-      name: 'ETH',
+      name: 'CNDL',
       address: '0x0000000000000000000000000000000000000000',
     },
     {
-      name: 'CELR',
-      address: '0x4f9254c83eb525f9fcf346490bbb3ed28a81c667',
+      name: 'WCNDL',
+      address: '0x85FA00f55492B0437b3925381fAaf0E024747627',
     },
   ],
 };
